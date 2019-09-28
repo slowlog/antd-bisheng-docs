@@ -1,12 +1,15 @@
-##  Antd-bisheng-docs
+#  Antd-bisheng-docs
 
 从 `Ant Design` 文档抽离出来的简化版文档工具，基于 `Ant Desgin、bisheng`，可用于管理项目接口文档、个人学习笔记等。
 
-## Demo 演示
+## Demo 示例
 
-[快速开始](https://api.slowlog.cn)
+ - 请点击 [在线预览](https://api.slowlog.cn)
+
+---
 
 ## 目录结构
+
 ```bash
 
 .
@@ -30,10 +33,6 @@
 
 `npm run prod // 打包项目、静态文件生成目录为当前目录的 dist`
 
-## 注意事项
-
-- 模板文件路径 `./theme/static/template.html`
-
 
 ## Nginx 配置
 
@@ -47,8 +46,8 @@ server {
     root /www/antd-bisheng-docs/dist;
 
     location / {
-            index index.html;
-            rewrite ^/$ /docs/react/getting-started.html redirect;
+        index index.html;
+        rewrite ^/$ /docs/react/getting-started.html redirect;
     }
 
     error_page  500 502 503 504 404 http://api.domain.com/docs/react/getting-started.html;
@@ -73,5 +72,13 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ```
 
+## 注意事项
 
+- 模板文件路径 `./theme/static/template.html`
+
+- 首页为空白页，需用 nginx rewrite 至指定页面
+
+- 目前仅支持中文，如需使用其他语言请自行解决
+
+- 如需访问某指定页面可通过，例如：http://api.slowlog.cn/docs/react/sign-rule.html
 
