@@ -8,7 +8,7 @@
 ## Demo 示例
 <br/>
 
- - 请点击 <a href="http://api.slowlog.cn" target="_blank">在线预览</a>
+ - 请点击 [在线预览](http://api.slowlog.cn)
 
 
 <br/>
@@ -34,13 +34,13 @@
 <br/>
 
 
-`npm i --registry=https://registry.npm.taobao.org // 安装项目依赖`
+- `npm i --registry=https://registry.npm.taobao.org // 安装项目依赖`
 
-`npm start // 启动项目`
+- `npm start // 启动项目`
 
-`npm run clean // 清除 dist 目录下的静态文件`
+- `npm run clean // 清除 dist 目录下的静态文件`
 
-`npm run prod // 打包项目、静态文件生成目录为当前目录的 dist`
+- `npm run prod // 打包项目、静态文件生成目录为当前目录的 dist`
 
 <br/>
 
