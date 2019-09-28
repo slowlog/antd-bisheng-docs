@@ -24,6 +24,9 @@
 ├── components         // 组件功能
 ├── dist               // 打包后静态文件输出目录
 ├── docs               // markdown 文件
+├── default.conf       // docker nignx 配置文件
+├── Dockerfile         // docker构建
+├── .gitignore         // git忽略  
 ├── package.json       // 项目依赖
 └── theme              // 基于 Ant Desgin 的主题
 
