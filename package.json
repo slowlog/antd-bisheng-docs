@@ -1,0 +1,32 @@
+{
+  "name": "antd-bisheng-docs",
+  "version": "1.0.0",
+  "description": "This is a document tool based on Ant Design.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_ENV=development bisheng start",
+    "prod": "bisheng build",
+    "clean": "rimraf dist/*"
+  },
+  "keywords": [],
+  "author": "@slowlog",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.19.2",
+    "bisheng": "^1.2.4",
+    "bisheng-plugin-antd": "^1.0.1",
+    "bisheng-plugin-react": "^1.0.0",
+    "bisheng-plugin-toc": "^0.4.4"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.4.4",
+    "cross-env": "^5.2.0",
+    "rimraf": "^2.6.3",
+    "intersection-observer": "^0.7.0",
+    "lz-string": "^1.4.4",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-intl": "^2.9.0",
+    "scrollama": "^2.0.0"
+  }
+}
