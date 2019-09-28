@@ -1,14 +1,18 @@
-#  Antd bisheng docs
+# Antd bisheng docs
 
-从 `Ant Design` 文档抽离出来的简化版文档工具，基于 `Ant Desgin、bisheng`，可用于管理项目接口文档、个人学习笔记等。
+从`Ant Design`文档抽离出来的简化版文档工具，基于`Ant Desgin、bisheng`，可用于管理项目接口文档、个人学习笔记等。
+<br/>
 
 ## Demo 示例
+<br/>
 
- - 请点击 [在线预览](http://api.slowlog.cn)
+ - 请点击 <a href="http://api.slowlog.cn" target="_blank">在线预览</a>
 
 
+<br/>
 
 ## 目录结构
+<br/>
 
 ```bash
 
@@ -24,6 +28,8 @@
 ```
 
 ## 项目启动&打包
+<br/>
+
 
 `npm i --registry=https://registry.npm.taobao.org // 安装项目依赖`
 
@@ -33,8 +39,10 @@
 
 `npm run prod // 打包项目、静态文件生成目录为当前目录的 dist`
 
+<br/>
 
 ## Nginx 配置
+<br/>
 
 ```bash
 
@@ -55,8 +63,10 @@ server {
 }
 
 ```
+<br/>
 
 ## 使用 Docker 构建此项目
+<br/>
 
 ```bash
 
@@ -71,8 +81,10 @@ RUN chmod -R 0777 /www/antd-bisheng-docs
 CMD ["nginx", "-g", "daemon off;"]
 
 ```
+<br/>
 
 ## 注意事项
+<br/>
 
 - 模板文件路径 `./theme/static/template.html`
 
