@@ -1,7 +1,7 @@
 # Antd bisheng docs
 <br/>
 
-从`Ant Design`文档抽离出来的简化版文档工具，基于`Ant Desgin、bisheng`，可用于管理项目接口文档、个人学习笔记等。
+一个从 `Ant Design` 文档抽离出来的简化版文档工具，可用于管理项目接口文档、个人学习笔记等。
 
 <br/>
 
