@@ -4,7 +4,7 @@
 
 ## Demo 示例
 
- - 请点击 [在线预览](https://api.slowlog.cn)
+ - 请点击 [在线预览](http://api.slowlog.cn)
 
 ---
 
