@@ -5,13 +5,6 @@
 
 <br/>
 
-## Demo 示例
-<br/>
-
- - 请点击 [在线预览](http://api.slowlog.cn)
-
-
-<br/>
 
 ## 目录结构
 <br/>
@@ -98,5 +91,5 @@ CMD ["nginx", "-g", "daemon off;"]
 
 - 目前仅支持中文，如需使用其他语言请自行解决
 
-- 如需访问某指定页面可通过，例如：http://api.slowlog.cn/docs/react/sign-rule.html
+- 如需访问某指定页面可通过，例：http://www.domain.com/docs/react/sign-rule.html
 
